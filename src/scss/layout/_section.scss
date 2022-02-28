@@ -5,4 +5,8 @@
   justify-items: center;
   gap: calc((49 / 16) * 1em);
   margin-block: 8rem;
+
+  @media (min-width: 1125px) {
+    gap: calc((72 / 16) * 1em);
+  }
 }
