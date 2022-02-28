@@ -37,6 +37,10 @@
       }
     }
 
+    @media (min-width: 1125px) {
+      align-self: center;
+    }
+
     &__stars {
       display: flex;
       flex-direction: row;
