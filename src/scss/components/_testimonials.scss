@@ -21,6 +21,15 @@
     padding: calc((32 / 16) * 1em);
     padding-top: calc((40 / 16) * 1em);
 
+    @media (min-width: 1150px) {
+      &:first-child {
+        transform: translateY(-16px);
+      }
+      &:last-child {
+        transform: translateY(16px);
+      }
+    }
+
     &__header {
       display: flex;
       align-items: center;
