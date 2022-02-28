@@ -1,0 +1,25 @@
+@use '../abstracts' as *;
+
+body {
+  font-family: $ff-primary;
+  font-size: $fs-primary;
+  font-weight: $fw-primary;
+  background-color: $clr-bg-primary;
+
+  background-image: url('../../images/bg-pattern-top-desktop.svg'),
+    url('../images/bg-pattern-bottom-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top 0 right 50vw, bottom 0 left 50%;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}

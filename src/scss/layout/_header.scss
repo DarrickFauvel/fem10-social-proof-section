@@ -1,0 +1,12 @@
+@use '../abstracts' as *;
+
+.header {
+  display: grid;
+  justify-items: center;
+  gap: calc((40 / 16) * 1em);
+  max-width: 1110px;
+
+  @media (min-width: 1125px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

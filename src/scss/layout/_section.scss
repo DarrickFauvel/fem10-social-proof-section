@@ -1,0 +1,8 @@
+@use '../abstracts' as *;
+
+.section {
+  display: grid;
+  justify-items: center;
+  gap: calc((49 / 16) * 1em);
+  margin-block: 8rem;
+}

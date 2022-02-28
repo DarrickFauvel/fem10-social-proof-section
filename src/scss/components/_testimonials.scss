@@ -1,0 +1,57 @@
+@use '../abstracts' as *;
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: calc((16 / 16) * 1em);
+  column-gap: calc((30 / 16) * 1em);
+
+  list-style: none;
+  padding: 0;
+
+  .testimonial {
+    display: grid;
+    gap: calc((26 / 16) * 1em);
+    width: 35rem;
+
+    background-color: $clr-bg-tertiary;
+    color: $fc-white;
+    border-radius: calc((8 / 16) * 1em);
+    padding: calc((32 / 16) * 1em);
+    padding-top: calc((40 / 16) * 1em);
+
+    &__header {
+      display: flex;
+      align-items: center;
+      gap: calc((23 / 16) * 1em);
+    }
+
+    &__image {
+      border-radius: 1000px;
+      width: calc((40 / 16) * 1em);
+    }
+
+    &__source {
+      display: grid;
+      gap: 0.01em;
+    }
+
+    &__name {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    &__title {
+      font-size: 1.3rem;
+      color: $fc-tertiary;
+    }
+
+    &__quote {
+      font-weight: 400;
+      font-size: 1.3rem;
+      line-height: calc(22 / 13);
+      letter-spacing: calc((-0.23 / 13) * 1em);
+    }
+  }
+}

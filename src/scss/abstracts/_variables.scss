@@ -1,0 +1,25 @@
+// Primary colors
+$very-dark-magenta: hsl(300, 43%, 22%);
+$soft-pink: hsl(333, 80%, 67%);
+
+// Neutral
+$dark-grayish-magenta: hsl(303, 10%, 53%);
+$light-grayish-magenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+$clr-bg-primary: $white;
+$clr-bg-secondary: $light-grayish-magenta;
+$clr-bg-tertiary: $very-dark-magenta;
+
+// Breakpoints
+$breakpoint-sm: 445px;
+$breakpoint-lg: 1125px;
+
+// Typography
+$ff-primary: 'Spartan', sans-serif;
+$fs-primary: 1.5rem;
+$fw-primary: 400;
+$fc-primary: $very-dark-magenta;
+$fc-secondary: $dark-grayish-magenta;
+$fc-tertiary: $soft-pink;
+$fc-white: $white;
